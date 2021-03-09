@@ -93,19 +93,25 @@ Phone Expression
 /^[0-9]*^[()-]*$/
 
 
-For TABLE2, UserType (User roles such as Guest, Admin or Superadmin) must be defined as an ID assigned and the number that comes to each ID.
+For TABLE 2, UserType (User roles such as Guest, Admin or Superadmin) must be defined as an ID assigned and the number that comes to each ID.
 
-TABLE1
-ID  	Username	Display Name	Phone	 Email	    UserRolesId	Enabled	Record
-8345	aaaa	    eeee	         679941	 aa@g.com	1	        true	null
-3535	bbbb	    ffff	         384752	 ab@g.com	2	        true	null
-9068	cccc	    gggg	         569783	 ac@g.com	3	        true	null
-5345	dddd	    hhhh	         498549	 ad@g.com	2	        true	null
+TABLE 1
+---
+ID  |	Username|	Display Name|	Phone	| Email	  |  UserRolesId	|Enabled	|Record |
+|---|:---|:---|:---|:---|:---|:---|:---|
+|8345|	aaaa	  |  eeee	     |    679941	| aa@g.com|	1	        |true	|null|
+|3535	|bbbb	    |ffff	        | 384752	| ab@g.com|	2	      |  true	|null|
+|9068|	cccc	|    gggg	     |    569783|	 ac@g.com	|3	      |  true	|null|
+|5345	|dddd	  |  hhhh	|         498549	| ad@g.com|	2	    |    true	|null|
 
-TABLE2	
-ID	RoleCode
-1	Admin
-2	Guest
-3	SuperAdmin
+
+TABLE 2	
+---
+ID|	RoleCode|
+|--- |:---|
+|1|	Admin|
+|2|	Guest|
+|3|	SuperAdmin|
+
 
 In addition, soft deletion should be done according to space/fullness ratio of the records. Record field should be filled, Record IsNull check should be done in Backend request for users to be shown on the screen.
