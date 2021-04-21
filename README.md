@@ -1,5 +1,4 @@
-# P.I.Works-challenge
-Challenge for P.I. Works (Junior Software Product Design Engineer)
+
 
 In the desired interface, the lists of the contacts will appear on the left side of the screen, and the contact adding or updating operations will be performed on the right side of the same screen. I divided the interface into 3 parts, I am going to explain them down below.
 
